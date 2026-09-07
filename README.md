@@ -4,6 +4,16 @@ Kinetra is a local TypeScript workbench for physics diagrams, circuit and Boolea
 
 This is a source-run prototype. The diagram workflow below is tested; the repository is not a finished desktop application or a published npm package. Historical recovery notes and synthetic benchmarks are not feature or accuracy guarantees.
 
+## Diagram examples
+
+Sixteen reviewed examples cover charged rods, optics, projectile motion, forces, pulleys, fields and a circuit schematic.
+
+[![Full preview sheet of 16 Kinetra diagram examples](docs/assets/diagram-review.png)](docs/assets/diagram-review.png)
+
+[Open the full-size preview](docs/assets/diagram-review.png) · [Review details and modeling assumptions](docs/diagrams.md#reviewed-examples--2026-09-07)
+
+This is the saved visual review from September 7, 2026. Verification included 297 passing repository tests and nine passing accuracy probes; it does not certify every possible diagram input.
+
 ## Run a diagram
 
 Use Node.js 25 or newer (verified on 25.8.1). The diagram renderer and tests run directly from TypeScript; they do not require a build or runtime dependency installation.
@@ -46,7 +56,7 @@ npm ci --ignore-scripts
 npm run typecheck:diagrams
 ```
 
-The npm lockfile pins development dependencies. The root uses Node's built-in test runner; the source loader in `scripts/` resolves `.js` import specifiers to their TypeScript source files. Package-level distribution builds are outside the verified source-run workflow. Missing historical root build/lint/integration commands are no longer advertised.
+The npm lockfile pins development dependencies. The root uses Node's built-in test runner; the source loader in `scripts/` resolves `.js` import specifiers to their TypeScript source files. Package-level distribution builds are outside the verified source-run workflow.
 
 ## Diagram scope
 
@@ -75,3 +85,7 @@ See [diagram usage and assumptions](docs/diagrams.md) and the [audit with repair
 | `benchmark/` | Historical benchmark fixtures and reports; read their caveats |
 | `docs/` | Usage, audit findings and historical development notes |
 | `out/` | Ignored generated diagrams, previews and check results |
+
+## License
+
+[MIT](LICENSE) © 2026 Mohamed Mowafy.
