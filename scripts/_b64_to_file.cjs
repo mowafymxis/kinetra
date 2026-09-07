@@ -1,1 +1,0 @@
-let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const code=Buffer.from(d.trim(),'base64').toString('utf8');require('fs').writeFileSync(process.argv[2],code,'utf8');console.log('wrote',process.argv[2],code.length,'bytes')})

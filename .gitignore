@@ -13,6 +13,7 @@ coverage/
 kinetra-data/
 sample-course/.cache/
 out/
+.maintainer/
 *.pdf
 !docs/**/*.pdf
 .idea/

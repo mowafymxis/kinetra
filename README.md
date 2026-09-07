@@ -2,7 +2,7 @@
 
 Kinetra is a local TypeScript workbench for physics diagrams, circuit and Boolean tools, and technical learning workflows. Its core library, CLI, and Codex plugin live in one repository.
 
-This is a source-run prototype. The diagram workflow below is tested; the repository is not a finished desktop application or a published npm package. Historical recovery notes and synthetic benchmarks are not feature or accuracy guarantees.
+This is a source-run prototype. The diagram workflow below is tested; the repository is not a finished desktop application or a published npm package.
 
 ## Diagram examples
 
@@ -70,7 +70,7 @@ These are model-driven renderers. They can illustrate the supported physical sys
 - Fields: directional or magnitude arrows; scalar colors and piecewise-linear contours.
 - Schematics: scaled component terminals and explicit wire routing; IEC-style logic symbols with distinct input pins.
 
-See [diagram usage and assumptions](docs/diagrams.md) and the [audit with repair status](docs/textbook-diagram-audit.md). Correct calculations, SVG geometry and visual readability are separate checks; no universal accuracy percentage is claimed.
+See [diagram usage and assumptions](docs/diagrams.md). Correct calculations, SVG geometry and visual readability are separate checks; no universal accuracy percentage is claimed.
 
 ## Repository map
 
@@ -81,9 +81,8 @@ See [diagram usage and assumptions](docs/diagrams.md) and the [audit with repair
 | `packages/cli/src/` | CLI dispatch and workflows |
 | `packages/plugin/` | Codex manifest, skills, metadata and plugin checks |
 | `examples/` | Editable models and runnable example generation |
-| `scripts/` | Source loader, diagram audit and preserved legacy recovery utilities |
-| `benchmark/` | Historical benchmark fixtures and reports; read their caveats |
-| `docs/` | Usage, audit findings and historical development notes |
+| `scripts/` | Source loader and reproducible diagram accuracy checks |
+| `docs/` | Diagram usage, supported assumptions and the reviewed preview |
 | `out/` | Ignored generated diagrams, previews and check results |
 
 ## License

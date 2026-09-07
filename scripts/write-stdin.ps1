@@ -1,1 +1,0 @@
-$utf8NoBom = [System.Text.UTF8Encoding]::new($false); $content = [Console]::In.ReadToEnd(); [System.IO.File]::WriteAllText($args[0], $content, $utf8NoBom); Write-Host ("wrote " + $args[0] + " " + (Get-Item $args[0]).Length + " bytes")

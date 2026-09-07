@@ -64,4 +64,4 @@ Verification at this review: 297/297 repository tests, including 82/82 diagram t
 
 `packages/core/test/diagram/textbook_accuracy.test.ts` independently checks ray intersections, force equality, contour levels, rope tangency, coordinate transforms and symbol terminals. `scripts/audit-diagrams.mjs` retains the nine original audit acceptance checks. `examples/render-diagrams.mjs` produces the figures used for visual review.
 
-The original audit is retained as history in `docs/textbook-diagram-audit.md`, with repair status at the top. It does not certify untested scenes. Text labels may still need deliberate placement in dense custom compositions, and the model's physics must be checked against the actual problem.
+These checks do not certify untested scenes. Text labels may still need deliberate placement in dense custom compositions, and the model's physics must be checked against the actual problem.

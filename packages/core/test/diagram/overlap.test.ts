@@ -173,7 +173,7 @@ test("Overlap audit: scene2d text clamp pushes out-of-frame text back inside", (
 import { renderVectorField, renderScalarField } from "../../src/diagram/fields.js";
 import { renderPulley } from "../../src/diagram/pulley.js";
 import { renderLogicSchematic } from "../../src/diagram/logic_schematic.js";
-import { EXTRA_SCENARIOS } from "../../../../benchmark/visual_oracle_extra.mjs";
+import { EXTRA_SCENARIOS } from "./fixtures/overlap-scenarios.mjs";
 
 test("Overlap audit: F1 vector field (uniform flow) has no overlap events", () => {
   const [, name, model] = EXTRA_SCENARIOS.find((s) => s[0] === "F1")!;
