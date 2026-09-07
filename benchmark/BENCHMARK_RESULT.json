@@ -1,0 +1,199 @@
+{
+  "oracle": {
+    "S1": {
+      "maxHeight": 27.96,
+      "flightTime": 3.66,
+      "range": 79.28
+    },
+    "S2": {
+      "flightTime": 1.01,
+      "range": 10.1
+    },
+    "S3": {
+      "imageBaseX": 20,
+      "imageHeight": -5,
+      "magnification": -1
+    },
+    "S4": {
+      "imageBaseX": -10,
+      "imageHeight": 6,
+      "magnification": 2
+    },
+    "S5": {
+      "imageBaseX": 30,
+      "imageHeight": -8,
+      "magnification": -2
+    },
+    "S6": {
+      "tau_ms": 1,
+      "vAtTau": 3.16
+    },
+    "S7": {
+      "acceleration": 0,
+      "tension": 29.43,
+      "friction": 4.91,
+      "normal": 42.48,
+      "motionState": "static"
+    },
+    "S8": {
+      "n_per_m": 2000,
+      "B_center_mT": 7.5398,
+      "B_end_mT": 3.7699
+    },
+    "S9": {
+      "omega0_rad_s": 1000,
+      "f0_Hz": 159.15,
+      "Q": 0.1,
+      "deltaF_Hz": 1591.55
+    },
+    "S10": {
+      "minterm_mask": 19,
+      "term_count": 2
+    }
+  },
+  "with_plugin_answers": {
+    "S1": {
+      "maxHeight": 27.96,
+      "flightTime": 3.66,
+      "range": 79.28
+    },
+    "S2": {
+      "flightTime": 1.01,
+      "range": 10.1
+    },
+    "S3": {
+      "imageBaseX": 20,
+      "imageHeight": -5,
+      "magnification": -1
+    },
+    "S4": {
+      "imageBaseX": -10,
+      "imageHeight": 6,
+      "magnification": 2
+    },
+    "S5": {
+      "imageBaseX": 30,
+      "imageHeight": -8,
+      "magnification": -2
+    },
+    "S6": {
+      "tau_ms": 1,
+      "vAtTau": 3.16
+    },
+    "S7": {
+      "acceleration": 0,
+      "tension": 29.43,
+      "friction": 4.91,
+      "normal": 42.48,
+      "motionState": "static"
+    },
+    "S8": {
+      "n_per_m": 2000,
+      "B_center_mT": 7.5398,
+      "B_end_mT": 3.7699
+    },
+    "S9": {
+      "omega0_rad_s": 1000,
+      "f0_Hz": 159.15,
+      "Q": 0.1,
+      "deltaF_Hz": 1591.55
+    },
+    "S10": {
+      "minterm_mask": 19,
+      "term_count": 2
+    }
+  },
+  "without_plugin_answers": {
+    "S1": {
+      "maxHeight": 27.96,
+      "flightTime": 2.55,
+      "range": 55.17
+    },
+    "S2": {
+      "flightTime": 1.01,
+      "range": 10.1
+    },
+    "S3": {
+      "imageBaseX": 20,
+      "imageHeight": -5,
+      "magnification": -1
+    },
+    "S4": {
+      "imageBaseX": -10,
+      "imageHeight": 6,
+      "magnification": 2
+    },
+    "S5": {
+      "imageBaseX": -30,
+      "imageHeight": 8,
+      "magnification": 2
+    },
+    "S6": {
+      "tau_ms": 1,
+      "vAtTau": 2.5
+    },
+    "S7": {
+      "acceleration": -0.61,
+      "tension": 31.27,
+      "friction": 9.81,
+      "normal": 49.05,
+      "motionState": "kinetic"
+    },
+    "S8": {
+      "n_per_m": 800,
+      "B_center_mT": 3.0159,
+      "B_end_mT": 3.0159
+    },
+    "S9": {
+      "omega0_rad_s": 1000,
+      "f0_Hz": 159.15,
+      "Q": 0.1,
+      "deltaF_Hz": 15.92
+    },
+    "S10": {
+      "minterm_mask": 11,
+      "term_count": 3,
+      "expression": "!A!B!C + !AB!C + A!B!C"
+    }
+  },
+  "with_plugin_scores": {
+    "per": {
+      "S1": 1,
+      "S10": 1,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 1,
+      "S6": 1,
+      "S7": 1,
+      "S8": 1,
+      "S9": 1
+    },
+    "mean": 1
+  },
+  "without_plugin_scores": {
+    "per": {
+      "S1": 0.7975,
+      "S10": 0.5395,
+      "S2": 1,
+      "S3": 1,
+      "S4": 1,
+      "S5": 0,
+      "S6": 0.8956,
+      "S7": 0.357,
+      "S8": 0.5333,
+      "S9": 0.7525
+    },
+    "mean": 0.6875
+  },
+  "mean_with": 1,
+  "mean_without": 0.6875,
+  "absolute_gain_pp": 31.25,
+  "relative_error_reduction_pct": 100,
+  "summary": {
+    "with_plugin_mean_accuracy": "100.0%",
+    "without_plugin_mean_accuracy": "68.8%",
+    "absolute_gain_percentage_points": "0.312",
+    "relative_error_reduction_pct": "100.0%"
+  }
+}

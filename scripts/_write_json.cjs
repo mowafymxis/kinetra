@@ -1,0 +1,1 @@
+let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const args=JSON.parse(d);require('fs').writeFileSync(args.path,args.content,'utf8');console.log('wrote',args.path,args.content.length,'bytes')})
